@@ -1,2 +1,7 @@
 # React-portfolio-page
-Portolio page made with React. Basic and beginner friendly for React learners who need a reference.
+Made for learning purpose and for personal use.
+
+Used:
+- React Create App
+- React Bootstrap
+- React Icons
