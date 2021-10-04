@@ -1,0 +1,120 @@
+/*
+palette
+
+#061A40
+#003559
+#0353A4
+#006DAA
+#B9D6F2
+*/
+html{
+  --main-color-text: #fff;
+  --main-color-text-hover: #d6d6d6;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* MainBanner */
+.banner {
+  font-size: 1.5rem;
+  height: 100vh;
+  background-color: #061A40;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.banner .waves {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.company-title {
+  color: var(--main-color-text)
+}
+/* !!! */
+/* MenuNavbar */
+.menu-navbar {
+  background-color: #061A40;
+}
+.menu-elements {
+  font-size: 1.5rem;
+}
+.menu-single-element {
+  color: var(--main-color-text) !important;
+}
+.menu-single-element:hover {
+  color: var(--main-color-text-hover) !important;
+}
+/* !!! */
+/* MainServices*/
+.main-services {
+  background-color: #0353A4;
+}
+.service-title {
+  color: var(--main-color-text);
+  margin: 0.5em;
+}
+.service-text {
+  font-size: 1.2em;
+  color: var(--main-color-text);
+}
+/* !!! */
+/* Commons */
+.call-heading {
+  text-align: center;
+  font-size: 4em;
+  padding-bottom: 1em;
+  color: var(--main-color-text);
+}
+.icon-box {
+  display: inline-block;
+  border-radius: 5em;
+  box-shadow: 0px 0px 2px #888;
+  padding: 2em 2em;
+  color: var(--main-color-text);
+}
+/* !!! */
+
