@@ -72,10 +72,21 @@ body {
   left: 0;
 }
 .company-title {
-  color: var(--main-color-text)
+  color: var(--main-color-text);
+  margin-bottom: 2em;
+}
+.company-quote {
+  color: #a5a6bb;
+  margin-bottom: 1em;
+}
+.company-quote strong {
+  color: var(--main-color-text);
 }
 /* !!! */
 /* MenuNavbar */
+.logo-img {
+  height: 4em;
+}
 .menu-navbar {
   background-color: #061A40;
 }
