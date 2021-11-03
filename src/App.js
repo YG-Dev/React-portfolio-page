@@ -1,4 +1,5 @@
-import './App.css';
+import './Styles/App.css';
+import './Styles/Responsive.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import HomePage from './Pages/HomePage';

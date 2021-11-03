@@ -12,10 +12,10 @@ function MenuNavbar () {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto menu-elements"> 
                     <Nav.Link className="menu-single-element ms-3">Home page</Nav.Link>
-                    <Nav.Link className="menu-single-element ms-3">About us</Nav.Link>
-                    <Nav.Link className="menu-single-element ms-3">Services</Nav.Link>
-                    <Nav.Link className="menu-single-element ms-3">Portfolio</Nav.Link>
-                    <Nav.Link className="menu-single-element ms-3">Contact</Nav.Link>
+                    <Nav.Link className="menu-single-element ms-3" href="#about-us">About us</Nav.Link>
+                    <Nav.Link className="menu-single-element ms-3" href="#our-services">Services</Nav.Link>
+                    <Nav.Link className="menu-single-element ms-3" href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link className="menu-single-element ms-3" href="#contact">Contact</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
