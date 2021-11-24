@@ -1,5 +1,5 @@
 # React-portfolio-page
-Work in progess. Currently 20% of development.
+Work in progess. Currently 50% of development.
 
 Made for learning purpose and for personal use.
 
