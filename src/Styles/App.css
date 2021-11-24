@@ -118,12 +118,29 @@ body {
   background-color: #061A40;
 }
 /* !!! */
+/* Main contact */
+.main-contact {
+  background-color: #0353A4;
+}
+/* !!! */
 /* Commons */
 .call-heading {
   text-align: center;
   font-size: 4em;
   padding-bottom: 1em;
   color: var(--main-color-text);
+}
+.button-link{
+  color: var(--main-color-text);
+  text-decoration: none;
+}
+.button-link{
+  color: var(--main-color-text);
+  text-decoration: none;
+}
+.button-link:hover{
+  color: var(--main-color-text);
+  text-decoration: none;
 }
 .icon-box {
   display: inline-block;
@@ -164,4 +181,3 @@ body {
   color: var(--main-color-text-hover) !important;
 }
 /* !!! */
-

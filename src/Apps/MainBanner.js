@@ -7,7 +7,7 @@ function MainBanner (props) {
             <Container align="center">
                 <h1 className="company-title">Company</h1>
                 <h2 className="company-quote">Put motivational quote <strong>here</strong></h2>
-                <Button size="lg">Contact us</Button>
+                <Button size="lg"><a href="mailto:example@com.com" className="button-link">Contact us</a></Button>
             </Container>
         </Container>
     )
