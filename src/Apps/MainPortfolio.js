@@ -28,7 +28,7 @@ function MainPortfolio (props) {
                 <Container>
                     <Row className="pt-5">
                         <Col align="center">
-                            <img src={Portfolio1} style={{ height: "15em" }} className="img-border img-portfolio" onClick={() => handleShow(Portfolio1)}/>
+                            <img src={Portfolio1} className="img-border img-portfolio" onClick={() => handleShow(Portfolio1)}/>
                         </Col>
                         <Col>
                             <h3 className="portfolio-title"><a href="#" className="portfolio-hyperlink">Lorem ipsum dolor sit amet</a></h3>
@@ -37,7 +37,7 @@ function MainPortfolio (props) {
                     </Row>
                     <Row className="pt-5 pb-5">
                         <Col align="center">
-                            <img src={Bingo1} style={{ height: "15em" }} className="img-border img-portfolio" onClick={() => handleShow(Bingo1)}/>
+                            <img src={Bingo1} className="img-border img-portfolio" onClick={() => handleShow(Bingo1)}/>
                         </Col>
                         <Col>
                             <h3 className="portfolio-title">Consectetur adipiscing elit</h3>

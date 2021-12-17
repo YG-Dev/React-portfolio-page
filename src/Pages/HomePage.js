@@ -3,6 +3,7 @@ import MainBanner from '../Apps/MainBanner';
 import MainServices from '../Apps/MainServices';
 import MainPortfolio from '../Apps/MainPortfolio';
 import MainContact from '../Apps/MainContact';
+import Footer from '../Components/Footer';
 
 function HomePage () {
     return (
@@ -12,6 +13,7 @@ function HomePage () {
             <MainServices id="our-services"/>
             <MainPortfolio id="portfolio"/>
             <MainContact id="contact"/>
+            <Footer id="footer"/>
         </>
     )
 }

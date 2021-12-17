@@ -1,5 +1,6 @@
 # React-portfolio-page
-Work in progess. Currently 50% of development.
+All done and implemented with simple features single-page porftolio. Will be updated with new features & changes in the future.
+Using Bootstrap grid system, basic navigation and image modals.
 
 Made for learning purpose and for personal use.
 
