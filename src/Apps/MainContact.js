@@ -12,8 +12,8 @@ function MainContact (props) {
                         <Button size="lg" style={{ backgroundColour: "red" }}><a href="mailto:example@com.com" className="button-link">Contact us</a></Button>
                     </Col>
                     <Col sm={4} align="left" className="mt-3">
-                        <Row><a href="https://www.example.com" target="_blank" className="portfolio-hyperlink"><FaGithubSquare/> Check us on Github</a></Row>
-                        <Row><a href="https://www.example.com" target="_blank" className="portfolio-hyperlink"><FaLinkedin/> Check us on Linkedin</a></Row>
+                        <Row><a href="https://www.example.com" target="_blank" rel="noreferrer" className="portfolio-hyperlink"><FaGithubSquare/> Check us on Github</a></Row>
+                        <Row><a href="https://www.example.com" target="_blank" rel="noreferrer" className="portfolio-hyperlink"><FaLinkedin/> Check us on Linkedin</a></Row>
                     </Col>
                 </Row>
             </Container>
